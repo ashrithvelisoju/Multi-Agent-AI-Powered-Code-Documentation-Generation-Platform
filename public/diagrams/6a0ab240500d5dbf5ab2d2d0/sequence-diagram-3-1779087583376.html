@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ 
+      startOnLoad: true,
+      theme: 'default',
+      securityLevel: 'loose',
+    });
+  </script>
+</head>
+<body>
+  <div class="mermaid">
+    sequenceDiagram
+        participant Client
+        participant Server
+        participant Database
+        Client->>Server: Request
+        Server->>Database: Query
+        Database-->>Server: Result
+        Server-->>Client: Response
+  </div>
+</body>
+</html>

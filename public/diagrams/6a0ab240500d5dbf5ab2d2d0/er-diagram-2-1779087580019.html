@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ 
+      startOnLoad: true,
+      theme: 'default',
+      securityLevel: 'loose',
+    });
+  </script>
+</head>
+<body>
+  <div class="mermaid">
+    erDiagram
+        ENTITY1 ||--o{ ENTITY2 : relationship
+        ENTITY1 {
+            string field1
+            int field2
+        }
+  </div>
+</body>
+</html>

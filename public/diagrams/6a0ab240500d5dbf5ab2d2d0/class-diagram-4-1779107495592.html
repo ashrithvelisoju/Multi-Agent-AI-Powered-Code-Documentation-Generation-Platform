@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ 
+      startOnLoad: true,
+      theme: 'default',
+      securityLevel: 'loose',
+    });
+  </script>
+</head>
+<body>
+  <div class="mermaid">
+    classDiagram
+        class ClassName {
+            +attribute: type
+            +method(): returnType
+        }
+        ClassName1 --> ClassName2 : relationship
+  </div>
+</body>
+</html>
