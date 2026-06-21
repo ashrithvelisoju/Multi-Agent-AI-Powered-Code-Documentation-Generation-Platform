@@ -36,6 +36,7 @@ When you push new commits, DocAgent detects the changes and updates only the aff
 ---
 
 ## Architecture
+<img width="1011" height="570" alt="image" src="https://github.com/user-attachments/assets/0e4608d3-3124-4d2e-83da-b92b92af56ff" />
 
 ```mermaid
 flowchart TB
